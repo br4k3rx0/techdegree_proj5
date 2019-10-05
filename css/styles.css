@@ -1,0 +1,68 @@
+.container {
+    width: 85%;
+    margin: auto;
+    text-align: center;
+}
+
+.photos {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    align-content: flex-start;
+}
+
+.photos a {
+    margin-top: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.search {
+    min-width: 300px;
+    padding: 0.6em;
+    border: 2px solid #d0d0d0;
+    border-radius: 5px;
+    margin-top: 2em;
+}
+
+.lightboxOverlay {
+    background-color: #382525;
+    opacity: 0.9;
+}
+
+
+.lb-container .lb-image {
+    border: none;
+    border-radius: 0;
+}
+
+.lb-data .lb-details {
+    padding: 1em;
+    text-align: center;
+}
+
+.lb-nav a.lb-next,
+.lb-nav a.lb-prev {
+    opacity: 1;
+    transition: none;
+}
+
+.lb-nav a.lb-prev {
+    position: absolute;
+    left: -15%;
+}
+
+.lb-nav a.lb-next {
+    position: absolute;
+    right: -15%;
+}
+
+.lb-close {
+    position: absolute;
+    top: -20px;
+    right: 30px;
+}
+
+.hidden {
+    display: none;
+}
